@@ -1,0 +1,55 @@
+.content {
+  grid-area: content;
+  padding: 15px;
+}
+
+.section {
+  margin: 20px 20px 60px 20px;
+}
+
+.section > h2 {
+  color: #009da5;
+}
+
+.section > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.service-card {
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #156a6e;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+h3 {
+  font-family: "Montserrat";
+  margin: 0 10px;
+}
+
+.fa-angle-right {
+  margin: 10px;
+}
+
+input {
+  width: 98%;
+  font-family: "Montserrat";
+}
+
+.content-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-height: 200px;
+}

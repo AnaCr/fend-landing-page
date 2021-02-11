@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Kayak";
+  src: url("fonts/kayak_sans_regular-webfont.woff2") format("woff2"),
+    url("fonts/kayak_sans_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: "Kayak";
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 250px auto 200px;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}
+
+button {
+  background-color: #009da5;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  font-family: "Kayak";
+  font-size: 1em;
+  color: white;
+}
