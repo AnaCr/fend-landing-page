@@ -2,6 +2,6 @@
 
 This is a mock landing page for a pet daycare and boarding center.
 
-Photos are from Unsplash.
+Photos are from Pexels.
 
 Lorem ipsum is from www.loremipsums.nl.
