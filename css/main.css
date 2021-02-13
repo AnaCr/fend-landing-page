@@ -41,3 +41,11 @@ button {
   font-size: 1em;
   color: white;
 }
+
+a {
+  text-decoration: none;
+}
+
+.menu:hover {
+  cursor: pointer;
+}

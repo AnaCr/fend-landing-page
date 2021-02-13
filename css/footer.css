@@ -9,7 +9,6 @@
 }
 
 .footer-link {
-  text-decoration: none;
   color: white;
   padding: 15px 10px;
 }
@@ -30,14 +29,14 @@
   margin: 0;
 }
 
-.social-media > i {
+.social-media > a {
   margin: 0 5px;
   padding: 5px;
   border-radius: 100%;
   color: black;
 }
 
-.social-media > i:hover {
+.social-media > a:hover {
   cursor: pointer;
   color: white;
 }
