@@ -56,6 +56,11 @@
   align-items: center;
 }
 
+.service-card:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
 .fa-angle-right {
   margin: 10px;
 }
