@@ -1,0 +1,129 @@
+@media (min-width: 480px) {
+  body {
+    font-size: 1.3em;
+  }
+
+  .container {
+    grid-template-rows: auto auto 250px;
+  }
+
+  input {
+    font-size: 0.8em;
+  }
+
+  .section-container {
+    width: 80%;
+  }
+
+  .section * > img {
+    max-width: 300px;
+  }
+
+  .home > h2 {
+    font-size: 130%;
+  }
+
+  .home-title {
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .content {
+    text-align: left;
+  }
+
+  body {
+    font-size: 1.5em;
+  }
+
+  .home {
+    max-height: 600px;
+  }
+
+  .home-img {
+    object-position: right;
+  }
+
+  .home > h2 {
+    font-size: 150%;
+    padding: 7% 0 0 7%;
+    width: 45%;
+  }
+
+  .section {
+    padding: 30px 0 80px 0;
+  }
+
+  .section-container {
+    width: 75%;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-container > p {
+    margin: 0 20px;
+  }
+
+  .section * > img {
+    max-width: 270px;
+    margin: 0;
+  }
+
+  .book-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-text,
+  .book-text {
+    margin-left: 30px;
+  }
+
+  .services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .service-card {
+    margin: 15px;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .card-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-rows: auto auto 300px;
+  }
+
+  .home {
+    max-height: 110vh;
+  }
+
+  .section-container {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.7em;
+  }
+
+  .section-container {
+    width: 50%;
+  }
+}

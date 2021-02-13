@@ -15,6 +15,7 @@
 }
 
 .footer-link:hover {
+  cursor: pointer;
   color: black;
   text-decoration: underline;
 }
@@ -27,4 +28,16 @@
 
 .footer-contact > p {
   margin: 0;
+}
+
+.social-media > i {
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 100%;
+  color: black;
+}
+
+.social-media > i:hover {
+  cursor: pointer;
+  color: white;
 }

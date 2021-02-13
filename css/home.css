@@ -27,12 +27,17 @@
 }
 
 .home {
-  background-image: url(../img/header.jpg);
-  background-size: cover;
   height: 80%;
   width: 100%;
   display: flex;
   position: relative;
+}
+
+.home-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: right bottom;
 }
 
 .img-overlay {
