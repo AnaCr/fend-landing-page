@@ -15,16 +15,19 @@
     <div class="container">
       <header class="header home-header" id="home">
         <div class="app-bar">
-          <nav class="menu" id="menu">
-            <a class="fas fa-bars fa-lg"></a>
-          </nav>
-          <div class="logo-container">
-            <a class="fas fa-paw fa-2x"></a>
-            <h1 class="home-title">
-              Paw <br />
-              House
-            </h1>
+          <div class="app-bar-container">
+            <nav class="menu" id="menu">
+              <a class="fas fa-bars fa-lg"></a>
+            </nav>
+            <a href="#home" class="logo-container">
+              <i class="fas fa-paw fa-2x"></i>
+              <h1 class="home-title">
+                Paw <br />
+                House
+              </h1>
+            </a>
           </div>
+          <ul class="menu-container"></ul>
         </div>
         <div class="home" id="home">
           <img class="home-img" src="img/header.jpg" alt="woman petting dog" />
@@ -53,24 +56,57 @@
           <h2>Services</h2>
           <div class="section-container services-container">
             <div class="card-container">
-              <div class="service-card">
-                <a class="fas fa-angle-right fa-lg"></a>
-                <h3>Dog daycare</h3>
-              </div>
-              <div class="service-card">
-                <a class="fas fa-angle-right fa-lg"></a>
-                <h3>Dog boarding</h3>
-              </div>
+              <details class="service-details">
+                <summary class="service-summary">Dog daycare</summary>
+                <div class="service-content">
+                  <div class="prices">
+                    <p>Standard Suite $30 / day</p>
+                    <p>Large Suite $30 / day</p>
+                  </div>
+                  <div class="details">
+                    <p>Includes playtime and a 30 minute walk</p>
+                  </div>
+                </div>
+              </details>
+              <details class="service-details">
+                <summary class="service-summary">Dog boarding</summary>
+                <div class="service-content">
+                  <div class="prices">
+                    <p>Standard Suite $50 / night</p>
+                    <p>Large Suite $60 / night</p>
+                  </div>
+                  <div class="details">
+                    <p>Daily playtime included</p>
+                    <p>One morning walk & one afternoon walk</p>
+                  </div>
+                </div>
+              </details>
             </div>
             <div class="card-container">
-              <div class="service-card">
-                <a class="fas fa-angle-right fa-lg"></a>
-                <h3>Cat daycare</h3>
-              </div>
-              <div class="service-card">
-                <a class="fas fa-angle-right fa-lg"></a>
-                <h3>Cat boarding</h3>
-              </div>
+              <details class="service-details">
+                <summary class="service-summary">Cat daycare</summary>
+                <div class="service-content">
+                  <div class="prices">
+                    <p>Standard Suite $30 / day</p>
+                    <p>Large Suite $30 / day</p>
+                  </div>
+                  <div class="details">
+                    <p>Includes playtime</p>
+                  </div>
+                </div>
+              </details>
+              <details class="service-details">
+                <summary class="service-summary">Cat boarding</summary>
+                <div class="service-content">
+                  <div class="prices">
+                    <p>Standard Suite $50 / night</p>
+                    <p>Large Suite $60 / night</p>
+                  </div>
+                  <div class="details">
+                    <p>Daily playtime included</p>
+                  </div>
+                </div>
+              </details>
             </div>
           </div>
         </div>
@@ -139,5 +175,6 @@
         </div>
       </div>
     </div>
+    <script src="js/app.js"></script>
   </body>
 </html>

@@ -23,11 +23,15 @@ h3 {
 .container {
   display: grid;
   grid-gap: 10px;
-  grid-template-rows: auto auto 200px;
+  grid-template-rows: 300px auto 200px;
   grid-template-areas:
     "header"
     "content"
     "footer";
+}
+
+.section {
+  min-height: 450px;
 }
 
 button {
@@ -37,15 +41,28 @@ button {
   padding: 10px;
   margin: 10px 0;
   width: 100%;
-  font-family: "Kayak";
+  font-family: "Montserrat";
   font-size: 1em;
   color: white;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .menu:hover {
   cursor: pointer;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0s, opacity 2s linear;
 }

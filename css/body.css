@@ -44,24 +44,60 @@
   background-color: rgb(240, 240, 240);
 }
 
-.service-card {
-  margin: 10px 0;
-  padding: 5px;
+.service-details {
   border-radius: 10px;
   background-color: #009da5;
   color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
+  margin: 20px 0;
 }
 
-.service-card:hover {
+.service-details:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.service-summary {
+  padding: 10px 30px;
+  font-family: "Montserrat";
+  text-align: left;
+}
+
+.service-card-btn:hover {
   background-color: black;
   cursor: pointer;
 }
 
-.fa-angle-right {
+.service-content {
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.button {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 50%;
+  color: white;
+}
+
+.service-card-content > button:hover {
+  background-color: #009da5;
+  width: 50%;
+}
+
+.prices {
+  color: #009da5;
+}
+
+.details {
+  padding: 0 10px;
+  border-top: rgb(235, 235, 235) 1px solid;
+}
+
+.toggle-arrow {
   margin: 10px;
 }
 
