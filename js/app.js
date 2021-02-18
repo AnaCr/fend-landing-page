@@ -11,6 +11,8 @@ menu.addEventListener('click', function(e) {
     menuContainer.style.removeProperty('visibility');
 });
 
+/* The following code has been adapted from an example at:
+https://www.w3docs.com/snippets/javascript/how-to-detect-a-click-outside-an-element.html (Feb 17 2021) */
 // close the navigation menu when a user clicks outside the menu icon
 document.addEventListener('click', function(e) {
     var targetElement = e.target;
@@ -19,7 +21,7 @@ document.addEventListener('click', function(e) {
           return;
         }
         targetElement = targetElement.parentNode;
-      } while (targetElement);   
+    } while (targetElement);   
       
       menuContainer.style.removeProperty('visibility');
 });
